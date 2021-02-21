@@ -1,6 +1,6 @@
-ol li{
-    list-style: none;
+ol>li{
     margin-bottom: 10px;
+    list-style: none;
 }
 a{
     text-decoration: none;
