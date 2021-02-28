@@ -13,12 +13,14 @@
             margin: 0;
             padding: 0;
         }
+
         body {
             background: #eee;
             margin: 20px 0;
             font-size: 14px;
             color: #666;
         }
+
         article {
             width: 21cm;
             min-height: 29.7cm;
@@ -36,10 +38,14 @@
 </head>
 <body>
 <article>
-    <section class="bio">
-        <h2>潘克淳</h2>
-        <span>男 | 21岁 | 前端开发工程师 | 武汉</span>
-        <p>手机：18608645531 | 微信：18608645531 | 邮箱：2489964425@qq.com</p>
+    <section class="bio"><h2>潘克淳</h2>
+        <span>男 | 21岁 | 前端开发工程师 | 武汉 |</span>
+        <span>手机：18608645531 | 微信：18608645531 | 邮箱：2489964425@qq.com</span>
+        <p>
+          <a href="https://www.zhihu.com/column/c_1319684150501130240">我的博客</a>，目前已有 <strong>30</strong> 篇技术文章；
+          <a href="https://github.com/XiaoPan-Struggle">我的GitHub</a>,过去两个月有 <strong>200</strong> 次提交；
+        </p>
+      </ol>
     </section>
     <section class="projects">
         <h2>项目经历</h2>
@@ -48,7 +54,7 @@
                 <header>
                     <h3>流水管家</h3>
                     <span>
-                        <a href="#">项目地址</a>
+                        <a href="https://github.com/XiaoPan-Struggle/Money-steward">项目地址</a>
                         <a href="#">项目演示</a>
                     </span>
                 </header>
@@ -70,7 +76,7 @@
                     <p>基于 <strong>Vue3+Typescript+Vite</strong> 开发的一款 UI 组件库</p>
                     <p>设计和实现了 Switch组件，Button组件，Dialog组件，Tabs组件</p>
                     <p>深入研究了 <strong>Vue3</strong>，使用了 <strong>setup，onMounted，ref，computed</strong>等Composition API</p>
-                    <p>做了PC端和移动端适配，将该项目 <strong>部署</strong> 在了我的服务器上</p>
+                    <p>做了PC端和移动端适配，将该项目 <strong>部署</strong> 在我的GitHub上</p>
                 </main>
             </li>
             <li>
@@ -100,6 +106,19 @@
                     <p>比如：元素的增删改查，事件绑定等等</p>
                 </main>
             </li>
+            <li>
+              <header>
+                  <h3>图库</h3>
+                  <span>
+                      <a href="https://github.com/XiaoPan-Struggle/gallery">项目地址</a>
+                  </span>
+              </header>
+              <main>
+                  <p>一款用 <strong>uni-app</strong> 框架进行开发的一款微信小程序</p>
+                  <p>这是一款模仿手机壁纸应用的小程序，其中封装了一个左右滑动的手势</p>
+                  <p>第一次接触到封装，使用了第三方插件 <strong>moment.js</strong> 处理时间格式</p>
+              </main>
+          </li>
         </ol>
     </section>
     <section class="openSource">
@@ -151,19 +170,8 @@
         <p>熟练掌握 <strong>React全家桶</strong> 的使用，包括create-react-app，ReactRouter，Redux，Hook等</p>
         <p>熟悉ES6，包括 <strong>let/Promise/await/解构赋值</strong> 等</p>
         <p>了解 <strong>Typescript</strong> 的使用，并在项目中使用</p>
-        <p>了解 <strong>Webpack</strong> 的配置和优化</p>
-        <p>熟练使用 <strong>git</strong>，<strong>svn</strong>等代码管理工具</p>
-    </section>
-    <section class="others">
-        <h2>其他链接</h2>
-        <ol>
-            <li>
-                <a href="https://www.zhihu.com/column/c_1319684150501130240">我的博客</a>，目前已有 <strong>30</strong> 篇技术文章
-            </li>
-            <li>
-                <a href="https://github.com/XiaoPan-Struggle">我的GitHub</a>,过去两个月有 <strong>200</strong> 次提交
-            </li>
-        </ol>
+        <p>了解 <strong>Webpack</strong> 的配置和优化,熟练使用 <strong>git</strong>，<strong>svn</strong>等代码管理工具</p>
+        <p></p>
     </section>
     <section class="jobs page2">
         <h2>工作经历</h2>
@@ -176,8 +184,20 @@
                 </header>
                 <main>
                     <p>独自负责项目的前端开发与维护工作；给较弱的同事进行指导，提高开发效率</p>
-                    <p>使用技术：Vue+ElementUI+axios</p>
                 </main>
+                <footer>
+                  <ol>
+                    <li>
+                      <header>
+                        <h3>智慧工地</h4>
+                    </header>
+                    <main>
+                        <p>这是一个后台管理系统，本人负责该项目的前端开发</p>
+                        <p>使用技术：Vue+Element+axios</p>
+                    </main>
+                    </li>
+                  </ol>
+                </footer>
             </li>
         </ol>
     </section>
